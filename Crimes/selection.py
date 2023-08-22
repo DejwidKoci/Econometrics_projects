@@ -5,7 +5,7 @@ data = pd.read_excel("data.xlsx", sheet_name = "dane")
 
 print()
 y = data['Y']
-X = data[['X1','X2','X3','X4','X5','X6','X7','X8','X9']]
+X = data[['X1','X3','X4','X5','X7','X8','X9']]
 
 
 def forward_stepwise_regression(X, y, threshold = 0.05):
