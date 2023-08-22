@@ -12,8 +12,8 @@ beta_02 = final_model.params['X5']
 const = final_model.params['const']
 
 conf_int_const = final_model.conf_int().loc['const']
-conf_int_X1 = final_model.conf_int().loc['X4']
-conf_int_X2 = final_model.conf_int().loc['X5']
+conf_int_X4 = final_model.conf_int().loc['X4']
+conf_int_X5 = final_model.conf_int().loc['X5']
 residuals = final_model.resid
 std_residuals = residuals.std()
 std_errors = final_model.bse
@@ -41,5 +41,5 @@ print(f"- Ocena b2 różni się od parametru beta2 średnio o {round(std_errors[
 print()
 print("Interpretacje przedziałów ufności:")
 print(f"- można sądzić na 95% że przedział od {round(conf_int_const[0], 2)} do {round(conf_int_const[1], 2)} obejmuje nieznaną wartość parametru beta0 ")
-print(f"- można sądzić na 95% że przedział od {round(conf_int_X1[0], 2)} do {round(conf_int_X1[1], 2)} obejmuje nieznaną wartość parametru beta1 ")
-print(f"- można sądzić na 95% że przedział od {round(conf_int_X2[0], 5)} do {round(conf_int_X2[1], 5)} obejmuje nieznaną wartość parametru beta2 ")
+print(f"- można sądzić na 95% że przedział od {round(conf_int_X4[0], 2)} do {round(conf_int_X4[1], 2)} obejmuje nieznaną wartość parametru beta1 ")
+print(f"- można sądzić na 95% że przedział od {round(conf_int_X5[0], 5)} do {round(conf_int_X5[1], 5)} obejmuje nieznaną wartość parametru beta2 ")
