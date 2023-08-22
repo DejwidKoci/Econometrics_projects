@@ -24,22 +24,22 @@ print()
 print(f"Model: {round(const, 2)} + {round(beta_01, 2)}X4 {round(beta_02, 5)}X5")
 
 
-print(f"Interpretacja parametru b1: Jeśli poziom przestępczości (X4) wzrośnie o 1 % to poziom zadowolenia z życia (Y) wzrasta średnio o {round(beta_01 * 1000, 2)} jednostkę",
+print(f"Interpretacja parametru b1: Jeśli poziom przestępczości (X4) wzrośnie o 1 % to poziom zadowolenia z życia (Y) wzrasta średnio o {round(beta_01, 2)} jednostkę",
       "przy założeniu ceteris paribus.")
-print(f"Interpretacja parametru b2: Wzrost mediany dochodów o 1 euro  (X5) to poziom zadowolenia z życia (Y) wzrasta średnio o {round(beta_02, 2) * -1} jednostkę,",
+print(f"Interpretacja parametru b2: Wzrost mediany dochodów o 1 euro  (X5) to poziom zadowolenia z życia (Y) wzrasta średnio o {round(beta_02, 5)} jednostkę,",
        "przy założeniu ceteris paribus.")
 print(f"Interpretacja odchylenia standardowego reszt (Se): Wartości empiryczne poziomu zadowolenia z życia odchylają się przęciętne od {round(std_residuals, 2)}",
        "od wartości teoretycznych wyznaczonych na podstawie modelu.")
 print(f"Interpretacja R^2: {r_squared * 100}% całkowitej zmienności poziomu z życia zostało wyjaśnionych modelem.")
 print(f"Interpretacja współczynnika korelacji wielorakiej R: Empiryczne i teoretyczne wartości poziomu zadowolenia z życia są skorelowane na poziomie {(round(r_squared ** (1/2) * 100, 3))}%")
-print("Parametry beta1 i beta2 są statystycznie istotne (P>|t| jest mniejszy niż 0.05 dla X1 i X2)")
+print("Parametry beta1 i beta2 są statystycznie istotne (P>|t| jest mniejszy niż 0.05 dla X4 i X5)")
 print()
 print("Błędy ocen parametrów:")
 print(f"- Ocena b0 różni się od parametru beta0 średnio o {round(std_errors['const'], 2)}")
 print(f"- Ocena b1 różni się od parametru beta1 średnio o {round(std_errors['X4'], 2)}")
-print(f"- Ocena b2 różni się od parametru beta2 średnio o {round(std_errors['X5'], 2)}")
+print(f"- Ocena b2 różni się od parametru beta2 średnio o {round(std_errors['X5'], 5)}")
 print()
 print("Interpretacje przedziałów ufności:")
 print(f"- można sądzić na 95% że przedział od {round(conf_int_const[0], 2)} do {round(conf_int_const[1], 2)} obejmuje nieznaną wartość parametru beta0 ")
 print(f"- można sądzić na 95% że przedział od {round(conf_int_X1[0], 2)} do {round(conf_int_X1[1], 2)} obejmuje nieznaną wartość parametru beta1 ")
-print(f"- można sądzić na 95% że przedział od {round(conf_int_X2[0], 2)} do {round(conf_int_X2[1], 2)} obejmuje nieznaną wartość parametru beta2 ")
+print(f"- można sądzić na 95% że przedział od {round(conf_int_X2[0], 5)} do {round(conf_int_X2[1], 5)} obejmuje nieznaną wartość parametru beta2 ")
