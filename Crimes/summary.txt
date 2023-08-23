@@ -1,0 +1,26 @@
+Model: 64.08+6.12X1+239.92X4+-214.32X7
+Interpretation of parameter b1: If the population density (X1) increases by 1000 people per km2, the number of recorded crimes per 1000 inhabitants (Y) increases by an average of 6.12 6.12 cases assuming ceteris paribus.
+Interpretation of parameter b2: An increase in the poverty level (X4) by 1% results in an increase in recorded crimes per 1,000 inhabitants (Y) by an average of 239.92 cases, assuming ceteris paribus.
+Interpretation of parameter b3: An increase in the rate of people aged 60 or over (X7) by 1% causes a decrease in recorded crimes per 1,000 inhabitants (Y) by an average of -214.32 cases, assuming
+ceteris paribus.
+Interpretation of the standard deviation of residuals (Se): The empirical values of the number of recorded crimes deviate on average by 10.65 from the theoretical values determined on the basis of the model.
+Interpretation R^2: 44.31444625414169% of the total variability in the number of recorded crimes was explained by the model.
+Interpretation of the multiple correlation coefficient R: Empirical and theoretical values of the number of recorded crimes are correlated at the level of 66.569%
+The beta1 and beta2 parameters are statistically significant (P>|t| is less than 0.05 for X1, X4, X7 )
+
+Parameter evaluation errors:
+- The b0 rating differs from the beta0 parameter by an average of 16.11
+- The b1 rating differs from the beta1 parameter by an average of 3.0
+- The b2 rating differs from the beta2 parameter by an average of 57.85
+- The b3 rating differs from the beta3 parameter by an average of 67.08
+
+Interpretations of confidence intervals:
+- it can be assumed with 95% that the range from 31.67 to 96.5 includes the unknown value of the beta0 parameter
+- it can be assumed for 95% that the range from 0.08 to 12.17 includes the unknown value of the beta1 parameter
+- it can be assumed with 95% that the range from 123.53 to 356.3 includes the unknown value of the beta2 parameter
+- it can be assumed for 95% that the range from -349.28 to -79.36 includes the unknown value of the beta2 parameter
+
+After performing the Shapiro-Wilk test, we find that the residuals are normally distributed.
+After running a series test, I find that the residuals are random in nature.
+After performing the Durbin-Watson test, we find no autocorrelation.
+After carrying out the Goldfeld-Quandt test, we find that they are homoskedastic.
