@@ -52,7 +52,7 @@ data_to_save = {
     'seniorzy_2021': seniorzy_2021
 }
 
-# Tworzenie pliku Excela i zapisywanie danych do osobnych zakładek
+
 output_path = 'SMK.xlsx'
 with pd.ExcelWriter(output_path) as writer:
     for sheet_name, data_frame in data_to_save.items():
