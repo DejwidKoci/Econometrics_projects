@@ -1,0 +1,22 @@
+Model: 458.32+0.57X1-11.1X2
+Interpretation of parameter b1: If the average monthly disposable income per person (X1) increases by PLN 1,000, the average monthly expenditure per person (Y) increases by PLN 565.04 on average, assuming that the percentage of people below the statutory poverty line does not change (ceteris paribus ).
+Interpretation of parameter b2: An increase of 1% of people below the poverty line (X2) causes the average monthly expenditure per person (Y) to fall by 11.1% on average, assuming that the average monthly disposable income per person remains unchanged.
+Interpretation of the standard deviation of the residuals (Se): The empirical values of average monthly expenses per capita deviate on average from PLN 23.69 from the theoretical values determined on the basis of the model.
+Interpretation R^2: 95.42213260436246% of the total variability of average monthly spending per person was explained by the model.
+Interpretation of the multiple correlation coefficient R: Empirical and theoretical values of average monthly expenses per person are correlated at the level of 97.684%
+The beta1 and beta2 parameters are statistically significant (P>|t| is less than 0.05 for X1 and X2)
+
+Parameter evaluation errors:
+- The b0 rating differs from the beta0 parameter by an average of 97.32
+- The b1 rating differs from the beta1 parameter by an average of 0.06
+- The b2 rating differs from the beta2 parameter by an average of 2.19
+
+Interpretations of confidence intervals:
+- it can be assumed for 95% that the range from 248.07 to 668.57 includes the unknown value of the beta0 parameter
+- it can be assumed with 95% that the range from 0.44 to 0.69 includes the unknown value of the beta1 parameter
+- it can be assumed with 95% that the range from -15.83 to -6.38 includes the unknown value of the beta2 parameter
+
+After performing the Shapiro-Wilk test, we find that the residuals are normally distributed.
+After running a series test, I find that the residuals are random in nature.
+After performing the Durbin-Watson test, we find no autocorrelation.
+After carrying out the Goldfeld-Quandt test, we find that they are homoskedastic.
