@@ -1,0 +1,22 @@
+Model: 6.87+-0.05X4 5e-05X5
+Interpretation of parameter b1: If the crime rate (X4) increases by 1%, the level of life satisfaction (Y) increases on average by -0.05 units, assuming ceteris paribus.
+Interpretation of parameter b2: An increase in median income by 1 euro (X5) is the level of life satisfaction (Y) increases by an average of 5e-05 unit, assuming ceteris paribus.
+Interpretation of the standard deviation of the residuals (Se): The empirical values of the level of life satisfaction deviate on average by 0.46 from the theoretical values determined on the basis of the model.
+R^2 Interpretation: 61.70949798106523% of the total life level variability was explained by the model.
+Interpretation of the multiple correlation coefficient R: Empirical and theoretical values of life satisfaction are correlated at the level of 78.555%
+The parameters beta1 and beta2 are statistically significant (P>|t| is less than 0.05 for X4 and X5)
+
+Parameter evaluation errors:
+- The b0 rating differs from the beta0 parameter by an average of 0.26
+- The b1 rating differs from the beta1 parameter by an average of 0.02
+- The b2 rating differs from the beta2 parameter by an average of 1e-05
+
+Interpretations of confidence intervals:
+- it can be assumed with 95% that the range from 6.33 to 7.41 includes the unknown value of the beta0 parameter
+- it can be assumed with 95% that the range from -0.08 to -0.01 includes the unknown value of the beta1 parameter
+- it can be assumed with 95% that the range from 3e-05 to 7e-05 includes an unknown value of the beta2 parameter
+
+After performing the Shapiro-Wilk test, we find that the residuals are normally distributed.
+After running a series test, I find that the residuals are random in nature.
+After performing the Durbin-Watson test, we find no autocorrelation.
+After carrying out the Goldfeld-Quandt test, we find that they are homoskedastic.
