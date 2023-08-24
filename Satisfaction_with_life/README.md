@@ -10,10 +10,10 @@ In the Satisfaction_with_life folder, an analysis was carried out to investigate
 - Homoskedasticity analysis
 - Project summary
 
-Dependent variable:
+Dependent variable (Y):
 - Life satisfaction level on a scale from 1 to 10
 
-Explanatory variables:
+Explanatory variables (X):
 - Years lived in good health in 2015 [years]
 - Number of hospital beds in 2015 [pieces]
 - Level of education in 2015 [%]
