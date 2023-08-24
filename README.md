@@ -37,7 +37,10 @@ In the Expenses folder, an analysis was performed to understand the factors infl
 - Homoskedasticity analysis
 - Project summary
 
-Explanatory variables:
+Dependent variable (Y):
+ - Average monthly expenditure per person [PLN].
+
+Explanatory variables (X):
 - Average monthly disposable income per person [PLN]
 - Percentage of people below the poverty line [%]
 - Average usable area of dwelling per person [square meters]
