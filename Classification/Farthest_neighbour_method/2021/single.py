@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 from sklearn.cluster import AgglomerativeClustering
 
 # loading data from an Excel sheet
-df = pd.read_excel('data.xlsx', index_col = 0, sheet_name = 'Single 2021')
+df = pd.read_excel('zmienne.xlsx', index_col = 0, sheet_name = 'Single 2021')
 
 # data normalisation
 df_norm = (df - df.mean()) / df.std()
