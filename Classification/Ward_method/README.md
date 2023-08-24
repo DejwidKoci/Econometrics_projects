@@ -1,1 +1,2 @@
 # Ward
+Ward's method - considered one of the most effective agglomeration methods. This method to estimate the distance between clusters uses an analysis of variance approach, namely namely intra-group variability. The method's algorithm combines such clusters that provide the minimum sum of squares of the distances from the centre of gravity of the new cluster they form. As a result, the clusters include those objects that are the least varied in terms of the due to the variables describing them.
