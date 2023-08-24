@@ -1,6 +1,6 @@
 # Data Analysis of Research Projects
 
-Welcome to the repository containing three research projects that analyze different explanatory variables of a presented phenomenon, treated as the dependent variable.
+Welcome to the repository containing four research projects. Three of them analyze different explanatory variables of a presented phenomenon, treated as the dependent variable. The last one create flassification of districts of Warsaw in terms of quality of life in the years 2012 - 2021.
 
 ## Project: Crimes
 
