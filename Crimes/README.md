@@ -10,7 +10,10 @@ In the Crimes folder, an analysis was conducted to explore the factors influenci
 - Homoskedasticity analysis
 - Project summary
 
-Explanatory variables:
+Dependent variable (Y):
+- Number of recorded crimes per 1,000 inhabitants
+  
+Explanatory variables (X):
 - Population density [thousands of people/square kilometer]
 - Percentage of people with higher education [%]
 - Average household income [thousands of $]
