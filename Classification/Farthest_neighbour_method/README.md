@@ -1,1 +1,2 @@
-# Najdalszego_sąsiada
+# furthest neighbour's method
+The full-bond (furthest neighbour) method is based on the fact that the distance between clusters is determined by the largest of the distances between any two objects belonging to different clusters (i.e. 'furthest neighbours'). Clusters are connected which contain points which, in a fixed metric space are combined. The method tends to group the elements located at the edges of the area of determinacy into one cluster, while the more internal points are allocated to the rest of the declared clusters.
