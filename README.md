@@ -66,7 +66,7 @@ Explanatory variables:
 - Pollution level in 2015 [%]
 
 
-## Project: classification of districts of Warsaw in terms of quality of life ine the years 2012 - 2021
+## Project: Classification of districts of Warsaw in terms of quality of life ine the years 2012 - 2021
 
 The survey of quality-of-life aspects is based on the generally accepted administrative division of the capital city. The zones under study for aspects of quality of life are the qualities of public services, aspects related to infrastructure, a sense of security and the occurrence of dangerous situations in the vicinity of one's place of residence.
 In classifying Warsaw's districts, an initial set of 20 diagnostic variables was selected for each district from the years 2012, 2017 and 2021. In selecting the variables, care was taken to ensure that they best reflected the general diagnostic syndrome and showed a universal character for each district. The study used data on neighbourhoods provided by the Warsaw City Hall. Four groups were created for which rankings of Warsaw's districts were made - a general group, a group with families with children, a group for senior citizens and a group for singles. Each group has its own explanatory variables, which have previously been subjected to selection. 
