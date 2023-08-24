@@ -14,7 +14,10 @@ In the Crimes folder, an analysis was conducted to explore the factors influenci
 - Homoskedasticity analysis
 - Project summary
 
-Explanatory variables:
+Dependent variable (Y):
+- Number of recorded crimes per 1,000 inhabitants
+
+Explanatory variables (X):
 - Population density [thousands of people/square kilometer]
 - Percentage of people with higher education [%]
 - Average household income [thousands of $]
@@ -57,10 +60,10 @@ In the Satisfaction_with_life folder, an analysis was carried out to investigate
 - Homoskedasticity analysis
 - Project summary
 
-Dependent variable:
+Dependent variable (Y):
 - Life satisfaction level on a scale from 1 to 10
 
-Explanatory variables:
+Explanatory variables (X):
 - Years lived in good health in 2015 [years]
 - Number of hospital beds in 2015 [pieces]
 - Level of education in 2015 [%]
