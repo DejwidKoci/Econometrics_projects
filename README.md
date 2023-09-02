@@ -2,7 +2,7 @@
 
 Welcome to the repository containing four research projects. Three of them analyze different explanatory variables of a presented phenomenon, treated as the dependent variable. The last one create flassification of districts of Warsaw in terms of quality of life in the years 2012 - 2021.
 
-...
+
 ## Project: Crimes
 
 In the Crimes folder, an analysis was conducted to explore the factors influencing the number of crimes in the United States in 2020. It includes:
@@ -30,7 +30,6 @@ Explanatory variables (X):
 - Percentage of people identifying as black [%]
 
 
-...
 ## Project: Expenses
 
 In the Expenses folder, an analysis was performed to understand the factors influencing expenditures per person in households in Poland in 2014. It includes:
@@ -52,7 +51,7 @@ Explanatory variables (X):
 - Average usable area of dwelling per person [square meters]
 
 
-...
+
 ## Project: Satisfaction_with_life
 
 In the Satisfaction_with_life folder, an analysis was carried out to investigate the factors affecting life satisfaction levels in selected European countries in 2015. It includes:
@@ -77,7 +76,7 @@ Explanatory variables (X):
 - Pollution level in 2015 [%]
 
 
-...
+
 ## Project: Classification of districts of Warsaw in terms of quality of life ine the years 2012 - 2021
 
 The survey of quality-of-life aspects is based on the generally accepted administrative division of the capital city. The zones under study for aspects of quality of life are the qualities of public services, aspects related to infrastructure, a sense of security and the occurrence of dangerous situations in the vicinity of one's place of residence.
